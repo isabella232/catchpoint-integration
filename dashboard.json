@@ -1,0 +1,950 @@
+[ {
+  "marshallScope" : 1
+}, {
+  "marshallId" : 1,
+  "sf_dashboardConfigs" : [ {
+    "configId" : "EYdZvMtAYAA",
+    "dashboardId" : "EYdZxpsAgAA"
+  } ],
+  "sf_dashboards" : [ "EYdZxpsAgAA" ],
+  "sf_description" : "",
+  "sf_page" : "Catchpoint",
+  "sf_type" : "Page"
+}, {
+  "marshallId" : 2,
+  "marshallMemberOf" : [ 1 ],
+  "sf_dashboard" : "Synthetic Metrics",
+  "sf_description" : "Metrics from Transactional and Single URL tests (DNS, Connect, SSL, TTFB, Total Time etc.)",
+  "sf_filterAlias" : {
+    "variables" : [ {
+      "alias" : "Node",
+      "applyIfExists" : false,
+      "description" : "",
+      "dimension" : "cp_node",
+      "globalScope" : false,
+      "preferredSuggestions" : [ ],
+      "replaceOnly" : false,
+      "required" : false,
+      "restricted" : false,
+      "value" : [ "*" ]
+    }, {
+      "alias" : "TestName",
+      "applyIfExists" : false,
+      "description" : "",
+      "dimension" : "cp_testname",
+      "globalScope" : false,
+      "preferredSuggestions" : [ ],
+      "replaceOnly" : false,
+      "required" : false,
+      "restricted" : false,
+      "value" : [ "*" ]
+    }, {
+      "alias" : "TestType",
+      "applyIfExists" : false,
+      "description" : "",
+      "dimension" : "cp_testType",
+      "globalScope" : false,
+      "preferredSuggestions" : [ ],
+      "replaceOnly" : false,
+      "required" : false,
+      "restricted" : false
+    } ]
+  },
+  "sf_isLocked" : false,
+  "sf_maxDelayOverride" : -1,
+  "sf_savedFilters" : {
+    "density" : 0.0,
+    "time" : {
+      "end" : "Now",
+      "relative" : true,
+      "start" : "-12h"
+    },
+    "variables" : [ "Node=cp_node:[\"*\"]", "TestName=cp_testname:[\"*\"]", "TestType=cp_testType:" ]
+  },
+  "sf_selectedEventOverlays" : [ ],
+  "sf_type" : "Dashboard",
+  "sf_uiModel" : {
+    "version" : 1,
+    "widgets" : [ {
+      "col" : 0,
+      "options" : {
+        "chartId" : "EYdZ3qxAcAA",
+        "chartIndex" : -2574289419809493500,
+        "id" : 0
+      },
+      "row" : 0,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 4,
+      "options" : {
+        "chartId" : "EYdZ4fCAYAA",
+        "chartIndex" : -7513545561567058000,
+        "id" : 0
+      },
+      "row" : 0,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 8,
+      "options" : {
+        "chartId" : "EYdZ22EAYAA",
+        "chartIndex" : 1588093806254,
+        "id" : 0
+      },
+      "row" : 0,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartId" : "EYdZ25UAcAA",
+        "chartIndex" : -6128097194119046000,
+        "id" : 0
+      },
+      "row" : 1,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 4,
+      "options" : {
+        "chartId" : "EYdZzjWAYAA",
+        "chartIndex" : 7238730536340717000,
+        "id" : 0
+      },
+      "row" : 1,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 8,
+      "options" : {
+        "chartId" : "EYdZxvkAYAA",
+        "chartIndex" : 1588094584861,
+        "id" : 0
+      },
+      "row" : 1,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartId" : "EYdZyvhAcAA",
+        "chartIndex" : -699751191743456400,
+        "id" : 0
+      },
+      "row" : 2,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 4,
+      "options" : {
+        "chartId" : "EYdZ0PmAgA0",
+        "chartIndex" : 5472139241025116000,
+        "id" : 0
+      },
+      "row" : 2,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 8,
+      "options" : {
+        "chartId" : "EYdZ3A-AgAA",
+        "chartIndex" : 1588094062836,
+        "id" : 0
+      },
+      "row" : 2,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartId" : "EYdZ3opAYAA",
+        "chartIndex" : 5572380083894919000,
+        "id" : 0
+      },
+      "row" : 3,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 4,
+      "options" : {
+        "chartId" : "EYdZzdLAgAA",
+        "chartIndex" : 1588093921517,
+        "id" : 0
+      },
+      "row" : 3,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 8,
+      "options" : {
+        "chartId" : "EYdZ4GnAgAA",
+        "chartIndex" : 1588093979221,
+        "id" : 0
+      },
+      "row" : 3,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartId" : "EYdZ3CzAYAA",
+        "chartIndex" : -8099852656614616000,
+        "id" : 0
+      },
+      "row" : 4,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 4,
+      "options" : {
+        "chartId" : "EYdZ0POAcAE",
+        "chartIndex" : 1588094584862,
+        "id" : 0
+      },
+      "row" : 4,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 8,
+      "options" : {
+        "chartId" : "EYdZ19_AYAA",
+        "chartIndex" : 1588094584863,
+        "id" : 0
+      },
+      "row" : 4,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartId" : "EYdZ3gsAgAA",
+        "chartIndex" : 7511759756755768000,
+        "id" : 0
+      },
+      "row" : 5,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 4,
+      "options" : {
+        "chartId" : "EYdZ3FOAcAA",
+        "chartIndex" : 1588094062837,
+        "id" : 0
+      },
+      "row" : 5,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 8,
+      "options" : {
+        "chartId" : "EYdZ2BuAcAA",
+        "chartIndex" : 1588094062838,
+        "id" : 0
+      },
+      "row" : 5,
+      "sizeX" : 4,
+      "sizeY" : 1
+    } ]
+  }
+}, {
+  "marshallId" : 3,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Connect",
+  "sf_chartIndex" : -7513545561567058000,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "Average Connect Time",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('catchpoint.connect').mean().publish(label='A')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Metric",
+    "maximumPrecision" : 3,
+    "programOptions" : {
+      "disableSampling" : false,
+      "maxDelay" : 0,
+      "minimumResolution" : 0
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "A",
+      "label" : "A",
+      "paletteIndex" : 1,
+      "valueUnit" : "Millisecond",
+      "yAxis" : 0
+    } ],
+    "secondaryVisualization" : "None",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 4,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "TTFB",
+  "sf_chartIndex" : 5572380083894919000,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "Average Time To First Byte",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('catchpoint.ttfb').mean().publish(label='A')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Metric",
+    "maximumPrecision" : 3,
+    "programOptions" : {
+      "disableSampling" : false,
+      "maxDelay" : 0,
+      "minimumResolution" : 0
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "A",
+      "label" : "A",
+      "paletteIndex" : 1,
+      "valueUnit" : "Millisecond",
+      "yAxis" : 0
+    } ],
+    "secondaryVisualization" : "None",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 5,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "SSL - Trend",
+  "sf_chartIndex" : 1588094584861,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "Average SSL (blue), % week-on-week growth (brown)",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('catchpoint.ssl').mean().publish(label='A')\nB = (A).mean().timeshift('1w').publish(label='B', enable=False)\nC = ((A-B)/B).scale(100).publish(label='C')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "areaChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "axes" : [ {
+      "label" : "Time"
+    }, {
+      "label" : "WoW Growth (%)"
+    } ],
+    "axisPrecision" : 3,
+    "colorBy" : "Dimension",
+    "defaultPlotType" : "LineChart",
+    "eventPublishLabelOptions" : [ ],
+    "histogramChartOptions" : {
+      "colorThemeIndex" : 16
+    },
+    "includeZero" : false,
+    "legendOptions" : { },
+    "lineChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "onChartLegendOptions" : {
+      "showLegend" : false
+    },
+    "programOptions" : {
+      "disableSampling" : false,
+      "timezone" : "UTC"
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "SSL",
+      "label" : "A",
+      "paletteIndex" : 1,
+      "valueUnit" : "Millisecond",
+      "yAxis" : 0
+    }, {
+      "displayName" : "B",
+      "label" : "B",
+      "yAxis" : 0
+    }, {
+      "displayName" : "Week on Week Growth (%)",
+      "label" : "C",
+      "paletteIndex" : 4,
+      "valuePrefix" : "",
+      "valueSuffix" : "",
+      "yAxis" : 1
+    } ],
+    "showEventLines" : false,
+    "stacked" : false,
+    "time" : {
+      "range" : 604800000,
+      "type" : "relative"
+    },
+    "type" : "TimeSeriesChart",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 6,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "TTFB - Trend",
+  "sf_chartIndex" : -8099852656614616000,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "TTFB Time (blue), % week-on-week growth (brown)",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('catchpoint.ttfb').mean().publish(label='A')\nB = (A).mean().timeshift('1d').publish(label='B', enable=False)\nC = ((A-B)/B).scale(100).publish(label='C')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "areaChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "axes" : [ {
+      "label" : "Time"
+    }, {
+      "label" : "WoW Growth (%)"
+    } ],
+    "axisPrecision" : 3,
+    "colorBy" : "Dimension",
+    "defaultPlotType" : "LineChart",
+    "eventPublishLabelOptions" : [ ],
+    "histogramChartOptions" : {
+      "colorThemeIndex" : 16
+    },
+    "includeZero" : false,
+    "legendOptions" : { },
+    "lineChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "onChartLegendOptions" : {
+      "showLegend" : false
+    },
+    "programOptions" : {
+      "disableSampling" : false,
+      "timezone" : "UTC"
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "TTFB",
+      "label" : "A",
+      "paletteIndex" : 1,
+      "valueUnit" : "Millisecond",
+      "yAxis" : 0
+    }, {
+      "displayName" : "B",
+      "label" : "B",
+      "yAxis" : 0
+    }, {
+      "displayName" : "Week on Week Growth (%)",
+      "label" : "C",
+      "paletteIndex" : 4,
+      "valueUnit" : "Millisecond",
+      "yAxis" : 1
+    } ],
+    "showEventLines" : false,
+    "stacked" : false,
+    "time" : {
+      "range" : 604800000,
+      "type" : "relative"
+    },
+    "type" : "TimeSeriesChart",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 7,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "SSL",
+  "sf_chartIndex" : 1588093806254,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "Average SSL Response Time",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('catchpoint.ssl').mean().publish(label='A')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Metric",
+    "maximumPrecision" : 3,
+    "programOptions" : {
+      "disableSampling" : false,
+      "maxDelay" : 0,
+      "minimumResolution" : 0
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "A",
+      "label" : "A",
+      "paletteIndex" : 1,
+      "valueUnit" : "Millisecond",
+      "yAxis" : 0
+    } ],
+    "secondaryVisualization" : "None",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 8,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Total Time",
+  "sf_chartIndex" : 1588093921517,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "Average Total Time",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('catchpoint.total.time').mean().publish(label='A')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Metric",
+    "maximumPrecision" : 3,
+    "programOptions" : {
+      "disableSampling" : false,
+      "maxDelay" : 0,
+      "minimumResolution" : 0
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "A",
+      "label" : "A",
+      "paletteIndex" : 1,
+      "valueUnit" : "Millisecond",
+      "yAxis" : 0
+    } ],
+    "secondaryVisualization" : "None",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 9,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "DNS - Info",
+  "sf_chartIndex" : -699751191743456400,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "markdown" : "The chart above shows DNS time.\n\nMetric(s):\n<code>catchpoint.dns</code>\n\nTime required to resolve the domain name into an IP address.",
+    "type" : "Text"
+  }
+}, {
+  "marshallId" : 10,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Bytes Downloaded - Trend",
+  "sf_chartIndex" : 1588094584863,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "Bytes Downloaded (blue), % week-on-week growth (brown)",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('catchpoint.bytes.downloaded').mean().publish(label='A')\nB = (A).mean().timeshift('1w').publish(label='B', enable=False)\nC = ((A-B)/B).scale(100).publish(label='C')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "areaChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "axes" : [ {
+      "label" : "Bytes"
+    }, {
+      "label" : "WoW Growth (%)"
+    } ],
+    "axisPrecision" : 3,
+    "colorBy" : "Dimension",
+    "defaultPlotType" : "LineChart",
+    "eventPublishLabelOptions" : [ ],
+    "histogramChartOptions" : {
+      "colorThemeIndex" : 16
+    },
+    "includeZero" : false,
+    "legendOptions" : { },
+    "lineChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "onChartLegendOptions" : {
+      "showLegend" : false
+    },
+    "programOptions" : {
+      "disableSampling" : false,
+      "timezone" : "UTC"
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "Bytes Downloaded",
+      "label" : "A",
+      "paletteIndex" : 1,
+      "valueUnit" : "Byte",
+      "yAxis" : 0
+    }, {
+      "displayName" : "B",
+      "label" : "B",
+      "yAxis" : 0
+    }, {
+      "displayName" : "Week on Week Growth (%)",
+      "label" : "C",
+      "paletteIndex" : 4,
+      "valuePrefix" : "",
+      "valueSuffix" : "",
+      "yAxis" : 1
+    } ],
+    "showEventLines" : false,
+    "stacked" : false,
+    "time" : {
+      "range" : 604800000,
+      "type" : "relative"
+    },
+    "type" : "TimeSeriesChart",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 11,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Connect - Trend",
+  "sf_chartIndex" : 7238730536340717000,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "Connect Time (blue), % week-on-week growth (brown)",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('catchpoint.connect').mean().publish(label='A')\nB = (A).mean().timeshift('1w').publish(label='B', enable=False)\nC = ((A-B)/B).scale(100).publish(label='C')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "areaChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "axes" : [ {
+      "label" : "Time"
+    }, {
+      "label" : "WoW Growth (%)"
+    } ],
+    "axisPrecision" : 3,
+    "colorBy" : "Dimension",
+    "defaultPlotType" : "LineChart",
+    "eventPublishLabelOptions" : [ ],
+    "histogramChartOptions" : {
+      "colorThemeIndex" : 16
+    },
+    "includeZero" : false,
+    "legendOptions" : { },
+    "lineChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "onChartLegendOptions" : {
+      "showLegend" : false
+    },
+    "programOptions" : {
+      "disableSampling" : false,
+      "timezone" : "UTC"
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "Connect",
+      "label" : "A",
+      "paletteIndex" : 1,
+      "valueUnit" : "Millisecond",
+      "yAxis" : 0
+    }, {
+      "displayName" : "B",
+      "label" : "B",
+      "yAxis" : 0
+    }, {
+      "displayName" : "Week on Week Growth (%)",
+      "label" : "C",
+      "paletteIndex" : 4,
+      "valuePrefix" : "",
+      "valueSuffix" : "",
+      "yAxis" : 1
+    } ],
+    "showEventLines" : false,
+    "stacked" : false,
+    "time" : {
+      "range" : 604800000,
+      "type" : "relative"
+    },
+    "type" : "TimeSeriesChart",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 12,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Total Time - Trend",
+  "sf_chartIndex" : 1588094584862,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "Average Total Time (blue), % week-on-week growth (brown)",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('catchpoint.total.time').mean().publish(label='A')\nB = (A).mean().timeshift('1d').publish(label='B', enable=False)\nC = ((A-B)/B).scale(100).publish(label='C')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "areaChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "axes" : [ {
+      "label" : "Time"
+    }, {
+      "label" : "WoW Growth (%)"
+    } ],
+    "axisPrecision" : 3,
+    "colorBy" : "Dimension",
+    "defaultPlotType" : "LineChart",
+    "eventPublishLabelOptions" : [ ],
+    "histogramChartOptions" : {
+      "colorThemeIndex" : 16
+    },
+    "includeZero" : false,
+    "legendOptions" : { },
+    "lineChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "onChartLegendOptions" : {
+      "showLegend" : false
+    },
+    "programOptions" : {
+      "disableSampling" : false,
+      "timezone" : "UTC"
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "Total Time",
+      "label" : "A",
+      "paletteIndex" : 1,
+      "valueUnit" : "Millisecond",
+      "yAxis" : 0
+    }, {
+      "displayName" : "B",
+      "label" : "B",
+      "yAxis" : 0
+    }, {
+      "displayName" : "Week on Week Growth (%)",
+      "label" : "C",
+      "paletteIndex" : 4,
+      "valueUnit" : "Millisecond",
+      "yAxis" : 1
+    } ],
+    "showEventLines" : false,
+    "stacked" : false,
+    "time" : {
+      "range" : 604800000,
+      "type" : "relative"
+    },
+    "type" : "TimeSeriesChart",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 13,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "TTFB - Info",
+  "sf_chartIndex" : 7511759756755768000,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "markdown" : "The chart above shows TTFB.\n\nMetric(s):\n<code>catchpoint.ttfb</code>\n\nThe time it took from the request being issued to receiving the first byte of data from the primary URL for the test(s). This is calculated as DNS + Connect + SSL + Send + Wait. For tests where the primary URL has a redirect chain, TTFB is calculated as the sum of the TTFB for each domain in the redirect chain.",
+    "type" : "Text"
+  }
+}, {
+  "marshallId" : 14,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Bytes Downloaded",
+  "sf_chartIndex" : 1588093979221,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "Average Bytes Downloaded",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('catchpoint.bytes.downloaded').mean().publish(label='A')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Metric",
+    "maximumPrecision" : 3,
+    "programOptions" : {
+      "disableSampling" : false,
+      "maxDelay" : 0,
+      "minimumResolution" : 0
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "A",
+      "label" : "A",
+      "paletteIndex" : 1,
+      "valueUnit" : "Byte",
+      "yAxis" : 0
+    } ],
+    "secondaryVisualization" : "None",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 15,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "SSL - Info",
+  "sf_chartIndex" : 1588094062836,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "markdown" : "The chart above shows average SSL time.\n\nMetric(s):\n<code>catchpoint.ssl</code>\n\nThe time it took to establish the SSL handshake with the primary URL.",
+    "type" : "Text"
+  }
+}, {
+  "marshallId" : 16,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Connect - Info",
+  "sf_chartIndex" : 5472139241025116000,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "markdown" : "The chart above shows Connect time.\n\nMetric(s):\n<code>catchpoint.connect</code>\n\nThe time required to establish the TCP connection with the IP address of the resolved domain name.",
+    "type" : "Text"
+  }
+}, {
+  "marshallId" : 17,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Bytes Downloaded - Info",
+  "sf_chartIndex" : 1588094062838,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "markdown" : "The chart above shows Bytes downloaded.\n\nMetric(s):\n<code>catchpoint.bytes.downloaded</code>\n\nThe file size in bytes of the response received for the primary URL of the test(s).",
+    "type" : "Text"
+  }
+}, {
+  "marshallId" : 18,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "DNS - Trend",
+  "sf_chartIndex" : -6128097194119046000,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "DNS average (blue), % week-on-week growth (brown)",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('catchpoint.dns').mean().publish(label='A')\nB = (A).mean().timeshift('1w').publish(label='B', enable=False)\nC = ((A-B)/B).scale(100).publish(label='C')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "areaChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "axes" : [ {
+      "label" : "Time"
+    }, {
+      "label" : "WoW Growth (%)"
+    } ],
+    "axisPrecision" : 3,
+    "colorBy" : "Dimension",
+    "defaultPlotType" : "LineChart",
+    "eventPublishLabelOptions" : [ ],
+    "histogramChartOptions" : {
+      "colorThemeIndex" : 16
+    },
+    "includeZero" : false,
+    "legendOptions" : { },
+    "lineChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "onChartLegendOptions" : {
+      "showLegend" : false
+    },
+    "programOptions" : {
+      "disableSampling" : false,
+      "timezone" : "UTC"
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "DNS",
+      "label" : "A",
+      "paletteIndex" : 1,
+      "valueUnit" : "Millisecond",
+      "yAxis" : 0
+    }, {
+      "displayName" : "B",
+      "label" : "B",
+      "yAxis" : 0
+    }, {
+      "displayName" : "Week on Week Growth (%)",
+      "label" : "C",
+      "paletteIndex" : 4,
+      "valuePrefix" : "",
+      "valueSuffix" : "",
+      "yAxis" : 1
+    } ],
+    "showEventLines" : false,
+    "stacked" : false,
+    "time" : {
+      "range" : 604800000,
+      "type" : "relative"
+    },
+    "type" : "TimeSeriesChart",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 19,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Total Time - Info",
+  "sf_chartIndex" : 1588094062837,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "markdown" : "The chart above shows Total Time.\n\nMetric(s):\n<code>catchpoint.total.time</code>\n\nThe total time it took for the test to complete.",
+    "type" : "Text"
+  }
+}, {
+  "marshallId" : 20,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "DNS",
+  "sf_chartIndex" : -2574289419809493500,
+  "sf_dashboardId" : "EYdZxpsAgAA",
+  "sf_description" : "Average DNS Response Time",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('catchpoint.dns').mean().publish(label='A')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Metric",
+    "maximumPrecision" : 3,
+    "programOptions" : {
+      "disableSampling" : false,
+      "maxDelay" : 0,
+      "minimumResolution" : 0
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "A",
+      "label" : "A",
+      "paletteIndex" : 1,
+      "valueUnit" : "Millisecond",
+      "yAxis" : 0
+    } ],
+    "secondaryVisualization" : "None",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+} ]

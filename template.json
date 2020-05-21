@@ -1,0 +1,25 @@
+{ "gauge": [{
+    "metric": "catchpoint.total.time",
+    "dimensions": {"cp_testname":"${TestName}", "cp_node": "${NodeName}", "cp_testType": "${TestType}"},
+    "value": "${timingtotal}"
+},{
+    "metric": "catchpoint.dns",
+    "dimensions": {"cp_testname":"${TestName}", "cp_node": "${NodeName}", "cp_testType": "${TestType}"},
+    "value": "${timingdns}"
+},{
+    "metric": "catchpoint.connect",
+    "dimensions": {"cp_testname":"${TestName}", "cp_node": "${NodeName}", "cp_testType": "${TestType}"},
+    "value": "${timingconnect}"
+},{
+    "metric": "catchpoint.ttfb",
+    "dimensions": {"cp_testname":"${TestName}", "cp_node": "${NodeName}", "cp_testType": "${TestType}"},
+    "value": "${timingwait}"
+},{
+    "metric": "catchpoint.bytes.downloaded",
+    "dimensions": {"cp_testname":"${TestName}", "cp_node": "${NodeName}", "cp_testType": "${TestType}"},
+    "value": "${bytereceive}"
+},{
+    "metric": "catchpoint.ssl",
+    "dimensions": {"cp_testname":"${TestName}", "cp_node": "${NodeName}", "cp_testType": "${TestType}"},
+    "value": "${timingssl}"
+}]}
