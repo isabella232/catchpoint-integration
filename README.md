@@ -83,8 +83,6 @@ There are two key components of this setup in Catchpoint system:
   * *Insight* - represents a property associated with your metrics you may later use to breakdown the RUM data.
   * *App* - represents your application you want to gather Real User Metrics for. 
 
-Optionally you may also install a Google Chrome extension to make it easier to navigate from Catchpoint app to the SignalFx µAPM app.
-
 ### Setup
 
 1. To create *Trace ID* *insight*, login into the Catchpoint Portal and go to *Settings* &rarr; *Insight* and enter the following values in the first empty row:
@@ -104,8 +102,6 @@ Optionally you may also install a Google Chrome extension to make it easier to n
       Note: the JavScript code shown in the *Tracking Code* section is the code that was copied to the sample weather app [view file](https://github.com/signalfx/simple-nodejs-weather-app/blob/master/views/index.ejs).
    1. Hit *Save*.
 
-1. TBD: describe Google Chrome extension setup.
-
 1. Finally in the Catchpoint app you can navigate to the *Analysis &rarr; Real User &rarr; Explorer &rarr; Page* section. This is where you can inspect RUM metrics from your app breaking them down by the SignalFx µAPM trace ID.
    1. In the top-left corner use the dropdown control to select your app.
    1. In the *Breakdown* &rarr; *1st by* select *Trace ID*.
@@ -113,9 +109,7 @@ Optionally you may also install a Google Chrome extension to make it easier to n
    1. Hit *Apply* button on the bottom of the left column.
       
       Once your app reports some metrics you will be able to see some charts here. Right above the chart is the SignalFx µAPM trace ID (e.g. `315a9f77d0101f4a`). 
-      
-      If you have the Google Chrome extension installed, you can click the trace ID to go to the SignalFx µAPM app to inspect the trace data.
-      
-      Otherwise you need to copy the trace ID and paste it in the SignalFx µAPM UI to inspect the trace data:
-      *  go to *µAPM* &rarr; *Troubleshooting* &rarr; *View Trace ID* 
+
+      You may copy the trace ID and paste it in the SignalFx µAPM UI to inspect the trace data:
+      * go to *µAPM* &rarr; *Troubleshooting* &rarr; *View Trace ID* 
       * or in case of the µAPM PG (Previous Generaton): go to *µAPM PG* &rarr; *View Trace ID* &rarr; *Trace ID*;    
